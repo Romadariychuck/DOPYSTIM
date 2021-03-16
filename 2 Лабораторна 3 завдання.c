@@ -1,19 +1,19 @@
 #include<stdio.h>
 #include<math.h>
 #include<locale.h>
+
 int main(void) {
-int a,b,sy,fc,d; 
+int a,b;
 setlocale (LC_CTYPE,"ua");
 printf("\n Перше число a = ");
 		scanf("%d",&a);
 printf("\n Друге число b = ");
 	    scanf("%d",&b);
-sy=a+b;
-printf("\n\r\tСума чисел = %d\n",sy);
-fc=(a/b);
-printf("\n\r\tЦіла частина від ділення 1 на 2 = %d\n",fc);
-d=(a+b)*3;
-printf("\n\r\tПотроєний добуток = %d\n\n",d);
-	
+    float x;
+
+    x = sqrt(a-b)*2+sqrt(a*b);
+
+	printf("\n\t x = %.3f\n\n", x);
+
 	return 0;
 }
