@@ -9,10 +9,10 @@ printf("\n Перше число a = ");
 printf("\n Друге число b = ");
 	    scanf("%d",&b);
  r = a-b;
-printf("\n\r\tРізниця чисел = %d\n",r);
+printf("\n\r\t Різниця чисел = %d\n",r);
  sa = (a+b)/2;
-printf("\r\tСереднє арифметичне = %d\n",sa);
+printf("\r\t Середнє арифметичне = %d\n",sa);
  c = a+b;
-printf("\r\tСума чисел = %d\n\n",c);
+printf("\r\t Сума чисел = %d\n\n",c);
 	return 0;
 	}
