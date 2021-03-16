@@ -11,7 +11,7 @@ printf("\n Друге число b = ");
 	    scanf("%d",&b);
     float x;
 
-    x = sqrt(a-b)*2+sqrt(a*b);
+    x = sqrt(a- pow(b,2))+sqrt(a*b);
 
 	printf("\n\t x = %.3f\n\n", x);
 
