@@ -9,7 +9,7 @@ printf("\n Перше число a = ");
 printf("\n Друге число b = ");
 	    scanf("%d",&b);
  r = a-b;
-printf("\n\r\Різниця чисел = %d\n",r);
+printf("\n\r\tРізниця чисел = %d\n",r);
  sa = (a+b)/2;
 printf("\r\tСереднє арифметичне = %d\n",sa);
  c = a+b;
