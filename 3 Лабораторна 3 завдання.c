@@ -7,16 +7,16 @@ setlocale(LC_CTYPE,"ua");
 int x,y,z;
 	float a;
 	point:
-       printf("\n Введiть x =  ");
+       printf("\n Р’РІРµРґiС‚СЊ x =  ");
     scanf("%d",&x);
-       printf("\n Введiть y =  ");
+       printf("\n Р’РІРµРґiС‚СЊ y =  ");
     scanf("%d",&y);
-       printf("\n Введiть z =  ");
+       printf("\n Р’РІРµРґiС‚СЊ z =  ");
     scanf("%d",&z);
 	if (y<0 || z<0 || x<0){
-printf("\t\nПомилка, не можна вводити вiд'ємнi числа...\n");
+printf("\t\nРџРѕРјРёР»РєР°, РЅРµ РјРѕР¶РЅР° РІРІРѕРґРёС‚Рё РІiРґ'С”РјРЅi С‡РёСЃР»Р°...\n");
         goto point;}
 a =(sqrt(x)+2*sqrt(y*z))/(sqrt(y)-2*sqrt(x*z));
-	 printf("\n Вiдповiдь a = %2.f\n",a);
+	 printf("\n Р’iРґРїРѕРІiРґСЊ a = %2.f\n",a);
   return 0;
 }
