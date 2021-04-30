@@ -4,20 +4,20 @@
 int main(void) {
     int y, z, f, x;
     float h, g;
-    setlocale (LC_CTYPE,"ru");
+    setlocale (LC_CTYPE,"ua");
     while (1) {
-    printf("\n Задайте y = ");
+    printf("\n Р—Р°РґР°Р№С‚Рµ y = ");
     scanf("%d", &y);
-    printf("\n Задайте z = ");
+    printf("\n Р—Р°РґР°Р№С‚Рµ z = ");
     scanf("%d", &z);
-    printf("\n Задайте f = ");
+    printf("\n Р—Р°РґР°Р№С‚Рµ f = ");
     scanf("%d", &f);
     g = sin(z);
     h = (pow(x,4)/2)-(pow(g,2)*f);
 
         if ( h == 0 ) 
         {
-            printf("\tРезультат дiлення - 0, Спробуйте ще раз...");continue;
+            printf("\tР РµР·СѓР»СЊС‚Р°С‚ РґiР»РµРЅРЅСЏ - 0, РЎРїСЂРѕР±СѓР№С‚Рµ С‰Рµ СЂР°Р·...");continue;
         }
 
         else { x = (1+cos(y-2))/(pow(x,4)/2)-(pow(g,2)*f);
