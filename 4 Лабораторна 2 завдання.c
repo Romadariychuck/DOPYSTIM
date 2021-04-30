@@ -10,20 +10,20 @@ int main(void) {
       x = 12;
      
       for(sum=0, i=x; i<=iMAX;  i+=2) sum += i;kvadrat = pow(sum,2);
-        printf("\n\tFor : \t         Ñóìà ïàðíèõ ÷èñåë = %d\t Êâàäðàò = %d\n", sum,kvadrat);
+        printf("\n\tFor : \t         Ð¡ÑƒÐ¼Ð° Ð¿Ð°Ñ€Ð½Ð¸Ñ… Ñ‡Ð¸ÑÐµÐ» = %d\t ÐšÐ²Ð°Ð´Ñ€Ð°Ñ‚ = %d\n", sum,kvadrat);
       
     kvadrat = 0;
       sum=0;
       i=x-2;
       
       while((i+=2)<=iMAX) sum += i; kvadrat = pow(sum,2);
-        printf("\tWhile: \t         Ñóìà ïàðíèõ ÷èñåë = %d\t Êâàäðàò = %d\n", sum,kvadrat);
+        printf("\tWhile: \t         Ð¡ÑƒÐ¼Ð° Ð¿Ð°Ñ€Ð½Ð¸Ñ… Ñ‡Ð¸ÑÐµÐ» = %d\t ÐšÐ²Ð°Ð´Ñ€Ð°Ñ‚ = %d\n", sum,kvadrat);
         
         kvadrat = 0;
       sum=0; 
       i=x;
       do { sum += i;kvadrat = pow(sum,2); } while((i+=2)<=iMAX);
-          printf("\tDo-while:\t Ñóìà ïàðíèõ ÷èñåë = %d\t Êâàäðàò = %d\n\n", sum,kvadrat);
+          printf("\tDo-while:\t Ð¡ÑƒÐ¼Ð° Ð¿Ð°Ñ€Ð½Ð¸Ñ… Ñ‡Ð¸ÑÐµÐ» = %d\t ÐšÐ²Ð°Ð´Ñ€Ð°Ñ‚ = %d\n\n", sum,kvadrat);
           
 return 0;
 }
