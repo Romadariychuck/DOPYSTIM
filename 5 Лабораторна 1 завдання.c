@@ -7,9 +7,9 @@ int n=1;int minimum = 0; int minind=0; int max = 0; int maximus =0;
 int rizn = 0;
 	setlocale(LC_CTYPE,"ua");
 while(1){ 
-printf("\n\nВведiть кiлькiсть масивiв: ");
+printf("\n\nР’РІРµРґiС‚СЊ РєiР»СЊРєiСЃС‚СЊ РјР°СЃРёРІiРІ: ");
 scanf("%d",&n);
-if(n<=0){printf("\n\nVu Ви Ввели некоректне значення. Введiть число бiльше нуля...\n");continue;}
+if(n<=0){printf("\n\nVu Р’Рё Р’РІРµР»Рё РЅРµРєРѕСЂРµРєС‚РЅРµ Р·РЅР°С‡РµРЅРЅСЏ. Р’РІРµРґiС‚СЊ С‡РёСЃР»Рѕ Р±iР»СЊС€Рµ РЅСѓР»СЏ...\n");continue;}
 
 else{ 
 int i = n;int colCount = n;
@@ -23,7 +23,7 @@ for(int i = 0; i < colCount; i++){
 if(a[i] > max){ 
 max = a[i];
 maximus = i; }}
-printf("\nМаксимальний масив: a[%d] = %d\n",maximus, a[maximus]);//max 
+printf("\nРњР°РєСЃРёРјР°Р»СЊРЅРёР№ РјР°СЃРёРІ: a[%d] = %d\n",maximus, a[maximus]);//max 
 
 for(int i = 0; i < colCount; i++){
     if (abs(a[i]) < a[minimum])
@@ -32,9 +32,9 @@ for(int i = 0; i < colCount; i++){
             minind = i;
         }
 }
-printf("\nМiнiмальний масив: a[%d] = %d\n",minind, a[minimum]);
+printf("\nРњiРЅiРјР°Р»СЊРЅРёР№ РјР°СЃРёРІ: a[%d] = %d\n",minind, a[minimum]);
      rizn = fabs(a[minimum]) - fabs(a[maximus]);
-     printf("\nРiзниця модулiв = %d\n",rizn);
+     printf("\nР iР·РЅРёС†СЏ РјРѕРґСѓР»iРІ = %d\n",rizn);
 break;}
 }
 }
