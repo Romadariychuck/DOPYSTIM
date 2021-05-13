@@ -5,9 +5,9 @@ void white (void) {
 void NumbersArrangedInDescending ( int arr [10] ) {
  setlocale(LC_CTYPE,"ua");
         int i, j, a, n;
-        printf("Введiть к-сть елементiв: ");
+        printf("Р’РІРµРґiС‚СЊ Рє-СЃС‚СЊ РµР»РµРјРµРЅС‚iРІ: ");
         scanf("%d", &n);
-        printf("Вкажiть номер: \n");
+        printf("Р’РєР°Р¶iС‚СЊ РЅРѕРјРµСЂ: \n");
         for (int i=0; i<n; i++) {
         printf("a[%d] = ", i);
         scanf("%d", &arr[i]);
@@ -24,8 +24,8 @@ void NumbersArrangedInDescending ( int arr [10] ) {
                 }
             }
         }
-        printf("\t\t\tРезультат: \n");
-        printf("Числа, розташованi в порядку зменшення: ");
+        printf("\t\t\tР РµР·СѓР»СЊС‚Р°С‚: \n");
+        printf("Р§РёСЃР»Р°, СЂРѕР·С‚Р°С€РѕРІР°РЅi РІ РїРѕСЂСЏРґРєСѓ Р·РјРµРЅС€РµРЅРЅСЏ: ");
         for (i = 0; i < n; ++i) 
         {   
             printf("\n\t\t %d\n", arr[i]);
@@ -37,8 +37,8 @@ int main (void) {
     int arr[10];
     int v;
 setlocale(LC_CTYPE,"ua");
-    printf("\nВиберiть вид фунцiї: ");
-    printf("\n\t1: Почати;\n\t2: Вихiд.");
+    printf("\nР’РёР±РµСЂiС‚СЊ РІРёРґ С„СѓРЅС†iС—: ");
+    printf("\n\t1: РџРѕС‡Р°С‚Рё;\n\t2: Р’РёС…iРґ.");
     printf("\n\t : ");
     scanf("%d", &v);
     if( v == 1 ) {
