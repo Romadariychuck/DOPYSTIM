@@ -4,10 +4,10 @@
 int main(void){
 int x,y;
 setlocale(LC_CTYPE, "ua");
-printf("\n Задайте x = ");
+printf("\n Р—Р°РґР°Р№С‚Рµ x = ");
 	scanf("%d",&x);
-if(x<0){printf("Ви ввели вiд'ємне число...Спробуйте ще раз\n");} 
+if(x<0){printf("Р’Рё РІРІРµР»Рё РІiРґ'С”РјРЅРµ С‡РёСЃР»Рѕ...РЎРїСЂРѕР±СѓР№С‚Рµ С‰Рµ СЂР°Р·\n");} 
 else {y = (pow(x,4))/(sqrt(fabs(x-10))-pow(x,2));
-	printf("\n Вiдповiдь = %2.d\n", y);}
+	printf("\n Р’iРґРїРѕРІiРґСЊ = %2.d\n", y);}
 return 0;
 }
